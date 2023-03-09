@@ -1,0 +1,163 @@
+ main {
+    background-image: 
+    url(./26735.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+tr {
+    border-color: brown;
+}
+
+.yellow {
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hi{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tabla{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke
+}
+.holi{
+    background-color: wheat;
+    width: 1000px;
+    padding: 20px;
+    margin-left: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    color: brown; 
+    text-align: center;
+    border-radius: 12px;
+    border: solid black;
+   
+}
+head{
+    background-color: rgb(237, 248, 210);
+}
+.menu{
+    background-color: wheat;
+    list-style: none;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu li{
+    display: inline-block;
+    padding: 20px;   
+    margin: 10px;   
+} 
+.foto{
+    width: 600px;
+    font-size: 20px;
+}
+
+iframe{
+    margin-left: 150px;
+    margin-top: 17px;
+}
+.par{
+    background-color: aqua;
+    padding: 45px;
+    width: 350px;
+    
+    
+}
+.seccion{
+    display: grid;
+    grid-template-columns:750px 400px;
+}
+
+a:hover{
+    background-color: white;
+    font-weight: bold;
+
+}
+
+a:active{
+    background-color: white;
+    color: aqua;
+}
+a:visited{
+    color: brown;
+}
+.imagen1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(237, 248, 210);
+    height: 400px;
+}
+.tableta{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    width: 80%;
+    text-align: center;
+    margin: 30px auto;
+    padding: 26px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "one two two"
+    "four four five"
+    ;   
+    gap: 10px;
+}
+.size{
+    width: 100%;
+    height: 20vh;
+    border-radius: 3px;
+    
+    
+}
+.one{
+    grid-area: one;
+    background-color: rgb(255, 0, 85)
+
+}
+.two{
+    grid-area: two;
+    background-color: rgb(255, 220, 154);
+}
+.five{
+    grid-area: five;
+    background-color: rgb(231, 190, 127);
+}
+.four{
+    grid-area: four;
+    background-color: rgb(230, 175, 23);
+}
+.ww{
+    border-radius: 12px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 110px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(228, 230, 158, 0.925);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.im{
+    border-radius: 120px;
+    padding: 30px;
+    width: 200px;
+    
+}
+footer{
+    background-color: rgb(245, 227, 189);  
+}
+
+.gr{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    margin-right: 10px;
+    padding: 30px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hu{
+    margin-right: 300px;
+    font-size: 20px;
+}

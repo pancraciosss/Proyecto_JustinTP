@@ -1,0 +1,41 @@
+body {
+    background-image: 
+    url(./26735.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagen{
+    display: grid; 
+    margin: 50px;
+    text-align: justify;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+header{
+    background-color: wheat;
+    width: 1000px;
+    padding: 20px;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    color: brown; 
+    text-align: center;
+    border-radius: 12px;
+    border: solid black;
+   
+}
+.imagen2{
+    margin-left: 70px;
+}
+.imagen4{
+    margin-left: 50px;
+}
+.par{
+    background-color: rgb(233, 217, 147);
+    padding: 30px;
+    border: solid black;
+    font-size: 15px;
+}
+
