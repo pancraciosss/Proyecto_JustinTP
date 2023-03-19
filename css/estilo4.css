@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel-inner {
+  padding: 50px;
+}
+
+.opciones {
+  padding: 200px;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .opciones {
+    background-color: red;
+    display: block;
+    text-align: center;
+  }
+  .opciones img {
+    width: 200px;
+    display: inline-block;
+  }
+  .opciones ul {
+    list-style: none;
+    text-align: justify;
+  }
+}
+.opciones img {
+  width: 200px;
+  display: inline-block;
+}
+.opciones ul {
+  list-style: none;
+  text-align: justify;
+}
+
+.d {
+  margin-left: 120px;
+  text-align: center;
+  border: solid black;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=estilo4.css.map */
