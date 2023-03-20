@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin mobile{
+    @media screen and (max-width:768px){
+        @content;
+    }
+}
+.carousel-inner{
+    padding: 50px;
+}
+
+.opciones{
+    padding: 200px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    @include mobile{
+        background-color: red;
+        display: block;
+        text-align: center;
+        img{
+            width: 200px;
+            display: inline-block ;    
+            }
+                ul{
+                list-style: none;
+                text-align: justify;
+                }
+                
+    }
+    img{
+        width: 200px;
+        display: inline-block ;    
+    }
+    ul{
+        list-style: none;
+        text-align: justify
+     }                  
+}
+
+.d{
+    margin-left: 120px ;
+    text-align: center;
+    border: solid black;
+    padding: 20px;
+}
+

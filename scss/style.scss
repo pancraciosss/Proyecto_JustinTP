@@ -1,0 +1,14 @@
+@mixin mobile{
+    @media screen and (min-width:100px){
+        display: block;
+        img{
+            width: 200px;
+            display: inline-block ;    
+            }
+                ul{
+                list-style: none;
+                text-align: justify;
+                }
+                @content;
+    }
+}
